@@ -1253,7 +1253,7 @@
   <Target Name="BeforeBuild" Condition=" '$(Configuration)' == 'Release' OR '$(Configuration)' == 'Snapshot' ">
     <GitVersionFile TemplateFile="..\..\SharedAssemblyInfo.template.cs" DestinationFile="..\..\SharedAssemblyInfo.cs" />
   </Target>
-  <Target Name="AfterBuild" DependsOnTargets="GenerateSerializationAssembliesForAllTypes">
+  <Target Name="AfterBuild" > <!--DependsOnTargets="GenerateSerializationAssembliesForAllTypes"> -->
   </Target>
   <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
