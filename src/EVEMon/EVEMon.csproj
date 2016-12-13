@@ -1247,8 +1247,7 @@
   -->
   <PropertyGroup>
     <PreBuildEvent>cd $(SolutionDir)tools\ResFileCreator\$(OutDir)
-pwd
-$(SolutionDir)tools\ResFileCreator\$(OutDir)\EVEMonResFileCreator.exe</PreBuildEvent>
+$(SolutionDir)tools\ResFileCreator\$(OutDir)EVEMonResFileCreator.exe</PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PostBuildEvent>del "$(ProjectDir)"EVEMon.res
