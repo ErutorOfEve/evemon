@@ -190,7 +190,7 @@ namespace EVEMon.About
             AddDevelopersToListView();
 
             AddLinkToLabel(ccpGamesLinkLabel, "CCP Games", "http://www.ccpgames.com/");
-            AddLinkToLabel(ccpDocsLinkLabel, "CCP 3rd party docs", "https://eveonline-third-party-documentation.readthedocs.org/en/latest/");
+            AddLinkToLabel(ccpDocsLinkLabel, "CCP 3rd party docs", "https://eveonline-third-party-documentation.readthedocs.io/en/latest/");
             AddLinkToLabel(bitbucketLinkLabel, "Bitbucket", "https://bitbucket.org/");
             AddLinkToLabel(gitHubLinkLabel, "GitHub", "https://github.com/");
             AddLinkToLabel(eveCentralLinkLabel, "EVE-Central", "http://www.eve-central.com/");
