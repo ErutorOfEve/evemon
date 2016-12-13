@@ -1,0 +1,10 @@
+language: csharp
+solution: EVEMon.sln
+#By default Travis will run xbuild /p:Configuration=Release solution-name.sln
+#see https://docs.travis-ci.com/user/languages/csharp/
+
+# blocklist
+branches:
+  except:
+  - v2
+  - gh-pages
